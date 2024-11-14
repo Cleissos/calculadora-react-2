@@ -1,0 +1,64 @@
+#cosplan {
+    width: 106px;
+}
+
+#rowsplan {
+    height: 106px;
+}
+
+.container {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container .calculadora {
+    
+    width: 300px;
+    background-color: transparent;
+    backdrop-filter: blur(70px);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.container .calculadora h1 {
+    text-align: center;
+    color: #ffffff;
+    margin: 20px 0;
+}
+
+.container .calculadora p {
+    background-color: #ffffff;
+    width: 265px;
+    height: 50px;
+    margin: 0px 0px 10px 5px;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+
+button {
+    width: 50px;
+    height: 50px;
+    margin: 1px;
+    border-radius: 20px;
+    font-size: 30px;
+    border: 0;
+    cursor: pointer;
+    transition: 500ms;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+button:hover {
+    background-color: transparent;
+    color: #ffffff;
+}
